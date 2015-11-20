@@ -4,7 +4,11 @@
   "version": "0.1",
   "manifest_version": 2,
   "description": "Keyboard shortcuts for manipulating tabs",
-  "icons": { "128": "images/icons/clone-tab.svg" },
+  "icons": {
+    "16":  "images/icons/rasterized/clone-tab-16.png",
+    "48":  "images/icons/rasterized/clone-tab-48.png",
+    "128":  "images/icons/rasterized/clone-tab-128.png"
+  },
   "background": {
     "scripts": ["js/background.js"]
   },
