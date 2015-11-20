@@ -1,0 +1,26 @@
+{
+  "name": "Tab keys",
+  "short_name": "Tab keys",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Keyboard shortcuts for manipulating tabs",
+  "icons": { "128": "images/icons/clone-tab.svg" },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "offline_enabled": true,
+  "web_accessible_resources": [
+  ],
+  "commands": {
+    "clone-tab": {
+      "description": "Clone tab",
+      "suggested_key": {
+        "default": "Alt+C",
+        "mac": "Alt+C"
+      }
+    }
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
