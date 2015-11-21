@@ -1,5 +1,5 @@
 # vim:set noexpandtab:
-SIZES=16 48 128
+SIZES=16 48 64 128
 
 icons: $(foreach size, $(SIZES), images/icons/rasterized/clone-tab-$(size).png)
 
